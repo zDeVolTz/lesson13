@@ -121,7 +121,7 @@
     margin-bottom: 10px;
 }
 
-.services-link {
+.link-style {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -135,7 +135,7 @@
     color: #24A3FF;
 }
 
-.services-link::after {
+.link-style::after {
     content: "";
     background-image: url(../images/icons/Arrow-regular.png);
     margin-left: 2px;
@@ -143,11 +143,11 @@
     height: 12px;
 }
 
-.services-link:hover {
+.link-style:hover {
     color: #F0145A;
 }
 
-.services-link:hover::after {
+.link-style:hover::after {
     content: "";
     background-image: url(../images/icons/Arrow-hover.png);
     margin-left: 2px;
@@ -155,7 +155,7 @@
     height: 12px;
 }
 
-.company-pride-tittle h2 {
+.hero {
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
     font-style: normal;
@@ -165,10 +165,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 60px;
 }
 
 .cards-pride {
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -234,7 +234,217 @@
     background: #E7E7F2;    
 }
 
-.next-sec {
+.main-center {
     background-color: #FFFFFF;
-    height: 2000px;
+}
+
+.team {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.team-card {
+    display: flex;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.team-card img {
+    width: 400px;
+    height: 298px;
+}
+
+.team-card-inform {
+    padding: 30px;
+    background-color: #EDEDF7;
+}
+
+.team-link {
+    margin-bottom: 5px;
+}
+
+.team-name {
+    margin-top: 30px;
+    margin-bottom: 6px;
+    color: #B3B3BA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-position {
+    color: #B3B3BA;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.slider-menu {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.elipse {
+    margin-left: 15px;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(36, 163, 255, 0.2);
+    border-radius: 8px;
+}
+
+.elipse:first-child {
+    margin-left: 0;
+}
+
+.active {
+    background-color: rgba(36, 163, 255, 1);
+}
+
+.elipse:not(.active):hover {
+    background-color: rgba(36, 163, 255, 0.6);
+}
+
+.partner-company {
+    width: 1720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.partner-company h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.partner-cards {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.partner-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 120px;
+}
+
+.partner-card:nth-child(1) {
+    background-color: #323264;
+    background-image:url(../images/Hillel-Logo-OneLine-White-Uk.png);
+    background-size: 271px 48px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(2) {
+    background: #143646;
+    background-image:url(../images/WannaBiz.png);
+    background-size: 200px 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(3) {
+    background: linear-gradient(0deg, #F48B30 0%, #F48B30 100%), #F48B30;
+    background-image:url(../images/tapgerine.png);
+    background-size: 179px 44px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(4) {
+    background-color: #9E4DC3;
+    background-image:url(../images/3D\ LOOK.png);
+    background-size: 180px 42px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(5) {
+    background: #FD9339;
+    background-image:url(../images/orangear.png);
+    background-size: 174px 44px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(6) {
+    background: #E2E2E4;
+    background-image:url(../images/adtellingent.png);
+    background-size: 223px 48px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(7) {
+    background: #C71C36;
+    background-image:url(../images/3D\ LOOK.png);
+    background-size: 138px 61px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(8) {
+    background: #DCF3F9;
+    background-image:url(../images/ecolease.png);
+    background-size: 146px 76px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(9) {
+    background: #EAEAEA;
+    background-image:url(../images/Ifra-Tek.png);
+    background-size: 182px 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(10) {
+    background: #282240;
+    background-image:url(../images/City-garden.png);
+    background-size: 181px 38px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(11) {
+    background: #1D4568;
+    background-image:url(../images/art-print.png);
+    background-size: 189px 46px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partner-card:nth-child(12) {
+    background: #000;
+    background-image:url(../images/UltimeCard.png);
+    background-size: 152px 95px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main-footer {
+    height: 800px;
+    background: #F5F5FA;
 }
