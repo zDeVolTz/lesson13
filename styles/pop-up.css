@@ -1,0 +1,135 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(50,50,100,0.7);
+    width: 100%;
+}
+
+.popup-closed {
+    display: none;
+}
+
+.popup-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    background: #F5F5FA;
+}
+
+.header-popup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.popup-tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(118deg, #F0145A 0%, #EF8080 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.popup-send-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-send-form .input-style {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    margin-top: 15px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popup-send-form .input-style::placeholder {
+    color:#B3B3BA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.message-input {
+    height: 100px;
+    resize: none;
+}
+
+.popup-send-form .input-style:first-child {
+    margin-top: 0;
+}
+
+.popup-send-form .input-style:focus {
+    outline: none;
+}
+
+.question-text-form {
+    color:  #B3B3BA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.send-button-popup {
+    margin-top: 30px;
+    padding: 18px 30px;
+    text-align: center;
+    border-radius: 12px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.50);
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.close-button {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.close-button:hover {
+    background-color: #E6E6F0;
+    border-radius: 8px;
+}
+
+.popup-open {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%,-50%);
+    border: 0;
+}
